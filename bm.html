@@ -6,26 +6,25 @@
     <link rel="stylesheet" href="/bookmarker/bm.css">
     <link rel="stylesheet" href="/bootstrap-5.3.7-dist/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <script src="/bootstrap-5.3.7-dist/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <script src="/bookmarker/bm.js"></script>
     <title>Document</title>
 </head>
 
   <h1 class="text-center, highlight">Bookmarker</h1>
-  
+
   <p class="tagline text-center"><i class="fa-solid fa-bookmark" style="color: green;"></i> Bookmark your favorite sites <i class="fa-solid fa-bookmark" style="color: green;"></i></p>
 
   <div class="form-container">
-   
-      <label for="siteName"><i class="fa-solid fa-book"></i> Site Name</label>
-      <input type="text" id="siteName" placeholder="Bookmark Name">
+  <label for="siteName"><i class="fa-solid fa-book"></i> Site Name</label>
+  <input type="text" id="siteName" class="form-control" placeholder="Bookmark Name">
 
-      <label for="siteUrl"><i class="fa-solid fa-link"></i> Site URL</label>
-      <input type="text" id="siteUrl" placeholder="Website URL">
+  <label for="siteUrl"><i class="fa-solid fa-link"></i> Site URL</label>
+  <input type="text" id="siteUrl" class="form-control" placeholder="Website URL">
 
-      <button type="button" onclick="submitBtn()">Submit</button>
-   
-  </div>
+  <button onclick="submitBtn()">Submit</button>
+</div>
 
   <table>
     <thead>
@@ -41,4 +40,9 @@
   </table>
 
 </body>
+</html>
+  </table>
+
+</body>
+
 </html>
